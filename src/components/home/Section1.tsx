@@ -13,8 +13,8 @@ import TalkButton from "./ui/TalkButton";
 
 const HomeSection1 = ({ id }: Readonly<{ id: string }>) => {
   // Google Drive URLs
-  const resumePreviewUrl = "https://drive.google.com/file/d/1qiyK_03KktLCPsV62tSHi6jEgi_Vf8Yv/preview?usp=sharing";
-  const resumeDownloadUrl = "https://drive.google.com/uc?export=download&id=1qiyK_03KktLCPsV62tSHi6jEgi_Vf8Yv";
+  const resumePreviewUrl = "https://drive.google.com/file/d/1ZDoyZ4jzlq6j91LeqwailA4lzVV2CTgq/view?usp=sharing";
+  const resumeDownloadUrl = "https://drive.google.com/file/d/1ZDoyZ4jzlq6j91LeqwailA4lzVV2CTgq/view?usp=sharing";
 
   return (
     <ResponsiveBox
@@ -76,7 +76,7 @@ const HomeSection1 = ({ id }: Readonly<{ id: string }>) => {
                 </Link>{" "}
                 or view it on{" "}
                 <Link
-                  href="https://drive.google.com/file/d/1qiyK_03KktLCPsV62tSHi6jEgi_Vf8Yv/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1ZDoyZ4jzlq6j91LeqwailA4lzVV2CTgq/view?usp=sharing"
                   target="_blank"
                   className="underline text-[var(--primaryColor)]"
                 >
