@@ -13,8 +13,9 @@ import TalkButton from "./ui/TalkButton";
 
 const HomeSection1 = ({ id }: Readonly<{ id: string }>) => {
   // Google Drive URLs
-  const resumePreviewUrl = "https://drive.google.com/file/d/1ZDoyZ4jzlq6j91LeqwailA4lzVV2CTgq/view?usp=sharing";
-  const resumeDownloadUrl = "https://drive.google.com/file/d/1ZDoyZ4jzlq6j91LeqwailA4lzVV2CTgq/view?usp=sharing";
+  const resumePreviewUrl = "https://drive.google.com/file/d/1ZDoyZ4jzlq6j91LeqwailA4lzVV2CTgq/preview";
+  const resumeDownloadUrl = "https://drive.google.com/uc?export=download&id=1ZDoyZ4jzlq6j91LeqwailA4lzVV2CTgq";
+
 
   return (
     <ResponsiveBox
